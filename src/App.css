@@ -5,6 +5,44 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat' , sans-serif;
-  background-color: #1a1a1c;
-  color: #fff;
+  background-color: #f1f1e5;
+  color: #52524C;
+}
+
+.coinsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px;
+  color: #52524C;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.İnputField{
+  padding-left: 16px;
+  font-size: 14px;
+  width: 260px;
+  height: 42px;
+  border-radius: 4px;
+  border: none ;
+  box-shadow: 0 0 3pt 2pt #52524C;
+  color: #241b1b;
+}
+
+@media(max-width:520px){
+  .header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1.brand{
+    padding-bottom: 16px;
+  }
 }
