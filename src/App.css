@@ -35,6 +35,11 @@
   color: #241b1b;
 }
 
+.İnputField:focus{
+  outline: 0;
+}
+
+
 @media(max-width:520px){
   .header{
     flex-direction: column;
